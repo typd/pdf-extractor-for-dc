@@ -6,7 +6,7 @@ import re
 import time
 from multiprocessing import Pool
 
-# statstics of process 3 x 182 pages pdf
+# statstics of processing 3 x 182 pages pdf
 # - 1 processes,    pre-compile regex: 151s
 # - 3 processes,    pre-compile regex: 84s
 # - 3 processes, no pre-compile regex: 84s
