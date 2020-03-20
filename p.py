@@ -66,8 +66,8 @@ def process_page(path, page_no, page, regex):
          print('*'*20)
 
 def main():
-    dir=r'D:\学习\春节大数据\金融大数据\用友PDF'
-    dir = '/Users/y/Working/typd/saars-for-dc'
+    #dir=r'D:\学习\春节大数据\金融大数据\用友PDF'
+    dir = "./"
 
     start_time = time.time()
     process_files(dir)
